@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+}
+
+:root{
+    --bgcolor: #0261BF;
+    --color: #FFFDFF;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bgcolor);
+    transition: .3s linear;
+}
+
+/* ----------------------------------------------- nav bar----------------------------------------- */
+nav{
+    height: 15vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+nav img{
+    height: 4rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    font-size: 1.1rem;
+    color: var(--color);
+    text-decoration: none;
+    font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+/*------------------------------------------------- section1 --------------------------------------- */
+
+/* ---------------------------------------left section  */
+.container .section1{
+    display: flex;
+}
+
+.container .section1 .left-section{
+    width: 70%;
+    /* border: 1px solid black; */
+    font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+    color: var(--color);
+    padding: 4rem 8rem;
+}
+.section1 .left-section h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.section1 .left-section h2{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.section1 .left-section p{
+    font-size: 1.1rem;
+}
+.section1 .left-section .btn1{
+    font-size: 1.1rem;
+    color: black;
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------- right seciton  */
+.container .section1 .right-section{
+    width: 30%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---------------------------------------- */
+
+.section1 .right-section .img1{
+    height: 25rem;
+}
+.section1 .right-section .img2{
+    height: 25rem;
+    display: none;
+}
+.section1 .right-section .img3{
+    height: 25rem;
+    display: none;
+}
+
+/* ---------------------------------------- */
+
+
+
+.right-section .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-section .socials li{
+    list-style-type: none;
+    padding: 1rem 0;
+
+}
+
+.right-section .socials li a img{
+    height: 2rem;
+}
+
+
+
+/* --------------------------- section 2  --------------------------------*/
+
+.container .section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .section2 .dring-option img{
+    height: 4rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: .5s linear;
+}
